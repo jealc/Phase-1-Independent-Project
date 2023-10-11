@@ -4,7 +4,7 @@ Building a Single Page Application (SPA).The frontend will be built with HTML, C
 # Project Information
 
 ## Project Description
-The project goal is it to build a news app <KeepITCurrent> that has all the latest and top articles on nature & environment, sports, politics, war, the economy and entertainment (music, films and theatre) both local and international; curated from the most notable and trusted news outlets.
+The project goal is it to build a news app (KeepITCurrent) that has all the latest and top articles on nature & environment, sports, politics, war, the economy and entertainment (music, films and theatre) both local and international; curated from the most notable and trusted news outlets.
 ## Project User Stories (what users can do with the site/application)
 Users of should be able to:
 1. View and select news categories and select articles in those categories to read.
