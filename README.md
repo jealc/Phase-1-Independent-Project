@@ -4,25 +4,23 @@ Building a Single Page Application (SPA).The frontend will be built with HTML, C
 # Project Information
 
 ## Project Description
-The project goal is it to build a news app (KeepITCurrent) that has all the latest and top articles on nature & environment, sports, politics, war, the economy and entertainment (music, films and theatre) both local and international; curated from the most notable and trusted news outlets.
+The project goal is it to build a news app (KeepITCurrent) that has all the latest and top articles on Sports, Politics, Music, Movies, Economics, Tech, and Food from various news outlets.
 ## Project User Stories (what users can do with the site/application)
-Users of should be able to;
-1. View and select news categories and select articles in those categories to read.
+Users of this app should be able to;
+1. View news articles on various topics on the landing page.
 2. Search for various topics and specific news.
-3. Share news or articles on socials.
-4. Comment and discuss over various topics.
-5. Contribute to the reporting by writing and submitting articles or images and videos.
-6. Rate articles on a scale of 1 to 5 stars.
-7. View current date and time in relation to user location on the landing page.
+3. Select specific topics i.e. 'Sports, Politics, Music, Movies, Economics, Tech, and Food'.
+4. View current date and time in relation to user location on the landing page.
 ## Project MVP (features the application should have)
 The app features the following;
 1. News categories.
-2. Comment section.
-3. Social media integration.
-4. Search functionality.
-5. Trending topics.
-6. Contribute/collaborate section.
-7. Time and date display.
+2. Drop down menu for mobile.
+3. Search functionality.
+4. Time and date display.
 
-The core of this project is a news application with the above mentioned and user stories and features, called `KeepITCurrent`, with a focus on delivering up-to-date news. The application uses GNews API. The application also allows for users to contribute to the reporting as one of it's unique features.
+The core of this project is a news application with the above mentioned user stories and features, called `KeepITCurrent`, with a focus on delivering up-to-date news.
+
+## API
+API : NEWSAPI
+This API only works on local system. Therefore, to run the application, open it with live server.
  
