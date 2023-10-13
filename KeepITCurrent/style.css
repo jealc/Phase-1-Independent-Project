@@ -155,13 +155,13 @@ form{
 }
   
 #time {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px; 
 }
   
 #date {
-    font-size: 16px; /* Adjust the font size as needed */
+    font-size: 16px;
 }
-  
+
 .trending {
     padding: 20px;
 }
