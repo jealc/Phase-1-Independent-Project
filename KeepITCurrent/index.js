@@ -17,6 +17,7 @@ menuBtn.addEventListener("click",()=>{
     mobilemenu.classList.toggle("hidden");
 })
 
+
 // Function to fetch trending articles for a specific category
 async function fetchTrending(category) {
     const res = await fetch(`${url}${category}&apiKey=${API_KEY}`);
