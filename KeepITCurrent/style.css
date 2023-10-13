@@ -24,10 +24,10 @@ h1 {
 }
 
 .separator {
-    width: 1px; /* Width of the vertical line */
-    height: 30px; /* Height of the vertical line */
-    background-color: gray; /* Color of the vertical line */
-    margin: 0; /* Adjust the spacing between elements as needed */
+    width: 1px;
+    height: 30px;
+    background-color: gray; 
+    margin: 0; 
     display: inline-block;
 }
 
