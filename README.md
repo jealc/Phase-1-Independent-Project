@@ -19,6 +19,8 @@ The app features the following;
 4. Time and date display.
 
 The core of this project is a news application with the above mentioned user stories and features, called `KeepITCurrent`, with a focus on delivering up-to-date news.
+KeepITCurrent allows for users to view trending news for each category listed on the webpage.
+KeepITCurrent also has a dropdown menu for mobile or minimized view on desktop.
 
 ## API
 API : NEWSAPI
