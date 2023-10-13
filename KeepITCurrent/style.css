@@ -179,10 +179,10 @@ form{
 .trending-article {
     display: flex;
     flex-direction: column;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 10px gray;
     border-radius: 5px;
     overflow: hidden;
-    background: #f1f1f1;
+    background: beige;
 }
   
 .trending-article img {
@@ -198,7 +198,7 @@ form{
   
 .trending-article a {
     text-decoration: none;
-    color: #333;
+    color: darkred;
 }
 
 main{
