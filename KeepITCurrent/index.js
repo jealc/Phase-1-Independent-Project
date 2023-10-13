@@ -4,19 +4,19 @@ const url = "https://newsapi.org/v2/everything?q="
 
 
 async function fetchData(query){
-    const res = await fetch(`${url}${query}&apiKey=${API_KEY}`)
-    const data = await res.json()
+    const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
+    const data = await res.json();
     return data
 }
 fetchData("all").then(data => renderMain(data.articles));
 
 //menu btn
-let mobilemenu = document.querySelector(".mobile")
-let menuBtn = document.querySelector(".menuBtn")
+let mobilemenu = document.querySelector(".mobile");
+let menuBtn = document.querySelector(".menuBtn");
 let menuBtnDisplay = true;
 
 menuBtn.addEventListener("click",()=>{
-    mobilemenu.classList.toggle("hidden")
+    mobilemenu.classList.toggle("hidden");
 })
 
 // Function to toggle the mobile menu's visibility
