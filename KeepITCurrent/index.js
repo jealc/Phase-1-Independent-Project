@@ -17,6 +17,36 @@ menuBtn.addEventListener("click",()=>{
     mobilemenu.classList.toggle("hidden");
 })
 
+function updateDateTime() {
+  const dateTimeContainer = document.querySelector('.date-time');
+  const timeElement = document.getElementById('time');
+  const dateElement = document.getElementById('date');
+
+  const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+  const dateTime = new Date();
+
+  // Format the time to 24-hour clock system
+  const hours = dateTime.getHours().toString().padStart(2, '0');
+  const minutes = dateTime.getMinutes().toString().padStart(2, '0');
+  const seconds = dateTime.getSeconds().toString().padStart(2, '0');
+
+  const formattedTime = `${hours}:${minutes}:${seconds}`;
+  const formattedDate = dateTime.toLocaleDateString('en-US', options);
+
+  // Set the content and styling
+  timeElement.textContent = formattedTime;
+  dateElement.textContent = formattedDate;
+
+  // You can adjust the font size and style for time and date here
+  timeElement.style.fontSize = '24px';
+  dateElement.style.fontSize = '16px';
+
+  // Update the time and date every second
+  setInterval(updateDateTime, 1000);
+}
+
+// Initial call to set the time and date
+updateDateTime();
 
 // Function to fetch trending articles for a specific category
 async function fetchTrending(category) {
