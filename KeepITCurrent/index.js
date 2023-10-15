@@ -175,3 +175,32 @@ async function Search(query){
   const data = await fetchData(query)
   renderMain(data.articles)
 }
+
+// Get the chat button and chat room elements
+const chatButton = document.getElementById('chat-button');
+const chatRoom = document.getElementById('chat-room');
+const closeChatButton = document.getElementById('close-chat');
+const messageInput = document.getElementById('message-input');
+const sendMessageButton = document.getElementById('send-message');
+const chatMessages = document.getElementById('chat-messages');
+
+// Function to open the chatroom
+chatButton.addEventListener('click', () => {
+  chatRoom.style.display = 'block';
+});
+
+// Function to close the chatroom
+closeChatButton.addEventListener('click', () => {
+  chatRoom.style.display = 'none';
+});
+
+// Function to send a message
+sendMessageButton.addEventListener('click', () => {
+  const message = messageInput.value;
+  if (message.trim() !== '') {
+    const messageElement = document.createElement('div');
+    messageElement.textContent = message;
+    chatMessages.appendChild(messageElement);
+    messageInput.value = '';
+  }
+});
