@@ -19,6 +19,7 @@ The app features the following;
 3. Search functionality.
 4. Time and date display.
 5. In-app chat-room.
+6. Home button.
 
 The core of this project is a news application with the above mentioned user stories and features, called `KeepITCurrent`, with a focus on delivering up-to-date news.
 KeepITCurrent allows for users to view trending news for each category listed on the webpage.
