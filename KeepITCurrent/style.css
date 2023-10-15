@@ -298,6 +298,11 @@ main{
     cursor: pointer;
 }
 
+.chat-button:hover {
+    background-color: blue;
+    color: white;
+}
+
 .chat-room {
     display: none;
     position: fixed;
@@ -357,5 +362,5 @@ main{
   
   #send-message:hover {
     background-color: #0056b3;
-  }
-  
+}
+ 
