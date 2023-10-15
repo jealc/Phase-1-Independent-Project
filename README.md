@@ -27,5 +27,4 @@ KeepITCurrent also has a dropdown menu for mobile or minimized view on desktop.
 
 ## API
 API : NEWSAPI
-This API only works on local system. Therefore, to run the application, open it with live server.
- 
+To run the application, please open it with live server.
