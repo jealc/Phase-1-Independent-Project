@@ -23,6 +23,11 @@ h1 {
     color: white;
 }
 
+h1:hover {
+    color: darkred;
+    cursor: pointer;
+}
+
 .separator {
     width: 1px;
     height: 30px;
