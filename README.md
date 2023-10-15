@@ -11,12 +11,14 @@ Users of this app should be able to;
 2. Search for various topics and specific news.
 3. Select specific categories i.e. 'Sports, Politics, Music, Movies, Economics, Tech, and Food'.
 4. View current date and time in relation to user location on the landing page.
+5. Discuss about various topics in a chat-room.
 ## Project MVP (features the application should have)
 The app features the following;
 1. News categories.
 2. Drop down menu for mobile.
 3. Search functionality.
 4. Time and date display.
+5. In-app chat-room.
 
 The core of this project is a news application with the above mentioned user stories and features, called `KeepITCurrent`, with a focus on delivering up-to-date news.
 KeepITCurrent allows for users to view trending news for each category listed on the webpage.
