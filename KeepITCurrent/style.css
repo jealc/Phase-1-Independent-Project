@@ -292,7 +292,7 @@ main{
     bottom: 20px;
     right: 20px;
     background-color: #007bff;
-    color: #fff;
+    color: black;
     padding: 10px 20px;
     border-radius: 50px;
     cursor: pointer;
@@ -305,15 +305,15 @@ main{
     right: 0;
     width: 300px;
     height: 400px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: beige;
+    border: 1px solid black;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px gray;
   }
   
   .chat-header {
     background-color: #007bff;
-    color: #fff;
+    color: black;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -330,7 +330,7 @@ main{
     display: flex;
     align-items: center;
     padding: 10px;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid black;
   }
   
   #close-chat {
