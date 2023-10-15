@@ -83,42 +83,47 @@ async function fetchTrending(category) {
   // Call the function to render trending articles
   renderTrendingArticles();
 
-// Function to hide the trending section
+// Function to hide the trending section and separating line
 function hideTrendingSection() {
   const trendingSection = document.getElementById('trending-section');
+  const separatorLine = document.querySelector('.separator-line');
+
   trendingSection.style.display = 'none';
+  separatorLine.style.display = 'none';
 }
 
-// Function to show the trending section
+// Function to show the trending section and separating line
 function showTrendingSection() {
   const trendingSection = document.getElementById('trending-section');
+  const separatorLine = document.querySelector('.separator-line');
+
   trendingSection.style.display = 'block';
+  separatorLine.style.display = 'block';
 }
-  
-  // Add event listeners to your header category links to hide the trending section when a category is clicked
-  document.querySelectorAll('.desktop ul li').forEach((categoryLink) => {
-    categoryLink.addEventListener('click', () => {
-      hideTrendingSection();
-    });
+// Add event listeners to your header category links to hide the trending section and separating line when a category is clicked
+document.querySelectorAll('.desktop ul li').forEach((categoryLink) => {
+  categoryLink.addEventListener('click', () => {
+    hideTrendingSection();
   });
-  
-  // Add event listeners to your mobile menu items to hide the trending section when a category is clicked
-  document.querySelectorAll('.mobile ul li').forEach((categoryLink) => {
-    categoryLink.addEventListener('click', () => {
-      hideTrendingSection();
-    });
+});
+
+// Add event listeners to your mobile menu items to hide the trending section and separating line when a category is clicked
+document.querySelectorAll('.mobile ul li').forEach((categoryLink) => {
+  categoryLink.addEventListener('click', () => {
+    hideTrendingSection();
   });
-  
-  // Add an event listener to the "Home" link to show the trending section
-  document.querySelector('.desktop ul li a[href$="KeepITCurrent/"]').addEventListener('click', () => {
-    showTrendingSection();
-  });
-  
-  // Add an event listener to the "Home" link in the mobile menu to show the trending section
-  document.querySelector('.mobile ul li a[href$="KeepITCurrent/"]').addEventListener('click', () => {
-    showTrendingSection();
-  });
- 
+});
+
+// Add an event listener to the "Home" link to show the trending section and separating line
+document.querySelector('.desktop ul li a[href$="KeepITCurrent/"]').addEventListener('click', () => {
+  showTrendingSection();
+});
+
+// Add an event listener to the "Home" link in the mobile menu to show the trending section and separating line
+document.querySelector('.mobile ul li a[href$="KeepITCurrent/"]').addEventListener('click', () => {
+  showTrendingSection();
+});
+
 //render news 
 function renderMain(arr){
   let mainHTML = ''
