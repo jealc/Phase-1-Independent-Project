@@ -27,4 +27,4 @@ KeepITCurrent also has a dropdown menu for mobile or minimized view on desktop.
 
 ## API
 API : NEWSAPI
-To run the application, please open it with live server.
+To run the application, please open it with live server. Make sure the url in your browser matches this : 'http://localhost:5500/KeepITCurrent/'.
